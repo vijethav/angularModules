@@ -8,6 +8,7 @@ import { AccountComponent } from './account/account.component';
 import { NewAccountComponent } from './new-account/new-account.component';
 import { AccountsService } from './accounts.service';
 import { LoggingService } from './logging.service';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { LoggingService } from './logging.service';
     AppComponent,
     AccountComponent,
     NewAccountComponent,
+    ErrorPageComponent,
 
   ],
   imports: [
